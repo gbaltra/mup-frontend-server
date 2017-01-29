@@ -3,4 +3,4 @@ docker run -it \
   --volume=/opt/nginx/conf/private.key:/private.key \
   --link=meteor:backend \
   --publish=443:443 \
-  meteorhacks:mup-ssl-server /start.sh
+  gbaltra:mup-frontend-server /start.sh
